@@ -1,5 +1,5 @@
 - name: insatll the nginx
-  hosts: web
+  hosts: 172.31.27.77
   become: yes #equal to -b in adhoc commands, getting root access
   tasks:
   - name: install nginx
